@@ -20,9 +20,9 @@
 <b> Main  Command used are as follows</b>
 1. Kubectl get pod
 2. kubectl get deployement
-3. kubectl apply -f <filename>.
-4. kubectl apply -f <mysqlfilename>.
+3. kubectl apply -f (<filename>).
+4. kubectl apply -f (<mysqlfilename>).
 5. kubectl get services (For service name).
-6. kubectl apply -f <secretfilname>.
+6. kubectl apply -f (<secretfilname>).
 7. kubectl delete deployment (Delete Deployment).
    
