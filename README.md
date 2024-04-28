@@ -1,5 +1,7 @@
 # Deployment of Hotel service on kubernetes using Minikube 
 
+<b>Steps are as follows</b>
+
 1. Prepare Docker Images: Build Docker images for your hotel service and MySQL database. Ensure that you have Dockerfiles for both services and that the images are properly configured.
 2. Start Minikube: Start Minikube by running minikube start. This will create a local Kubernetes cluster.
 3. Set Up MySQL Deployment: Create a Kubernetes Deployment for MySQL. You'll need to define a Deployment YAML file with specifications for the MySQL container, including environment variables for database credentials, volume mounts for persistent storage, etc.
