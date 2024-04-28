@@ -14,3 +14,15 @@
 10. Test Hotel Service: Test your hotel service to ensure it's functioning correctly. You can send requests to its endpoints and verify that it interacts with the MySQL database as expected.
 11. Optional: Expose Hotel Service: If you didn't already expose your hotel service in step 6, you can create an additional service of type NodePort or LoadBalancer to expose it externally.
 12. Cleanup: Once you're done testing, you can delete the resources by running kubectl delete deployment <deployment_name> and kubectl delete service <service_name> for both the hotel service and MySQL, and then stop Minikube with minikube stop.
+
+# Commands 
+
+<b> Main  Command used are as follows</b>
+1. Kubectl get pod
+2. kubectl get deployement
+3. kubectl apply -f <filename>.
+4. kubectl apply -f <mysqlfilename>.
+5. kubectl get services (For service name).
+6. kubectl apply -f <secretfilname>.
+7. kubectl delete deployment (Delete Deployment).
+   
